@@ -1,0 +1,111 @@
+/* Dark Theme (Default) */
+body {
+    font-family: 'Merriweather', serif; /* Elegant serif font */
+    background: linear-gradient(135deg, #1a1a1a, #2c3e50); /* Gradient background */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    transition: background 0.5s ease, color 0.5s ease;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+    background: rgba(44, 62, 80, 0.9); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Blur effect for elegance */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  }
+  
+  #verse-container {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(52, 73, 94, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Inner shadow */
+  }
+  
+  #verse-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin: 0;
+    font-weight: 400;
+    color: #f0f0f0;
+  }
+  
+  #verse-reference {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background: rgba(52, 73, 94, 0.8); /* Semi-transparent background */
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    backdrop-filter: blur(5px); /* Blur effect */
+  }
+  
+  button:hover {
+    background: rgba(44, 62, 80, 0.9); /* Darker on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  button:active {
+    transform: translateY(0); /* Reset on click */
+  }
+  
+  /* Light Theme */
+  body.light-theme {
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0); /* Light gradient */
+    color: #333;
+  }
+  
+  body.light-theme .container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  }
+  
+  body.light-theme #verse-container {
+    background: rgba(240, 240, 240, 0.8); /* Semi-transparent light background */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  body.light-theme #verse-text {
+    color: #333;
+  }
+  
+  body.light-theme #verse-reference {
+    color: #555;
+  }
+  
+  body.light-theme button {
+    background: rgba(240, 240, 240, 0.8); /* Semi-transparent light background */
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  }
+  
+  body.light-theme button:hover {
+    background: rgba(255, 255, 255, 0.9); /* Brighter on hover */
+  }
